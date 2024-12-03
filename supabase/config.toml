@@ -116,7 +116,7 @@ enable_signup = true
 # addresses. If disabled, only the new email is required to confirm.
 double_confirm_changes = true
 # If enabled, users need to confirm their email address before signing in.
-enable_confirmations = false
+enable_confirmations = true
 # If enabled, users will need to reauthenticate or have logged in recently to change their password.
 secure_password_change = false
 # Controls the minimum amount of time that must pass before sending another signup confirmation or password reset email.
@@ -127,13 +127,13 @@ otp_length = 6
 otp_expiry = 3600
 
 # Use a production-ready SMTP server
-# [auth.email.smtp]
-# host = "smtp.sendgrid.net"
-# port = 587
-# user = "apikey"
-# pass = "env(SENDGRID_API_KEY)"
-# admin_email = "admin@email.com"
-# sender_name = "Admin"
+[auth.email.smtp]
+host = "smtp.gmail.com"
+port = 465
+user = "ikhsanm181209@gmail.com"
+pass = "jixb mtxm fpwi hlnh"
+admin_email = "ikhsanm181209@gmail.com"
+sender_name = "Wikiarticle"
 
 # Uncomment to customize email template
 # [auth.email.template.invite]
